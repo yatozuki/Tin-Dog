@@ -1,0 +1,246 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/*
+
+ooooo      ooo       .o.       oooooo     oooo      oooooooooo.        .o.       ooooooooo.
+`888b.     `8'      .888.       `888.     .8'       `888'   `Y8b      .888.      `888   `Y88.
+ 8 `88b.    8      .8"888.       `888.   .8'         888     888     .8"888.      888   .d88'
+ 8   `88b.  8     .8' `888.       `888. .8'          888oooo888'    .8' `888.     888ooo88P'
+ 8     `88b.8    .88ooo8888.       `888.8'           888    `88b   .88ooo8888.    888`88b.
+ 8       `888   .8'     `888.       `888'            888    .88P  .8'     `888.   888  `88b.
+o8o        `8  o88o     o8888o       `8'            o888bood8P'  o88o     o8888o o888o  o888o
+
+ */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.nav-title {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light';
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/*
+ooooooooooooo ooooo ooooooooooooo ooooo        oooooooooooo
+8'   888   `8 `888' 8'   888   `8 `888'        `888'     `8
+     888       888       888       888          888
+     888       888       888       888          888oooo8
+     888       888       888       888          888    "
+     888       888       888       888       o  888       o
+    o888o     o888o     o888o     o888ooooood8 o888ooooood8
+ */
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.title-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 1% 10% 7%;
+}
+
+.iphone-dog {
+  transform: rotate(25deg);
+  position: absolute; right: 20%;
+  width: 25%;
+}
+
+@media (max-width: 990px) {
+  .container-fluid {
+    padding: 1% 10% 2%;
+  }
+
+  .iphone-dog {
+    position: static;
+    transform: rotate(0);
+    width: 45%;
+  }
+}
+
+/*
+
+oooooooooo.                                          oooo                            .o8       oooooooooo.                  .       .
+`888'   `Y8b                                         `888                           "888       `888'   `Y8b               .o8     .o8
+ 888      888  .ooooo.  oooo oooo    ooo ooo. .oo.    888   .ooooo.   .oooo.    .oooo888        888     888 oooo  oooo  .o888oo .o888oo  .ooooo.  ooo. .oo.
+ 888      888 d88' `88b  `88. `88.  .8'  `888P"Y88b   888  d88' `88b `P  )88b  d88' `888        888oooo888' `888  `888    888     888   d88' `88b `888P"Y88b
+ 888      888 888   888   `88..]88..8'    888   888   888  888   888  .oP"888  888   888        888    `88b  888   888    888     888   888   888  888   888
+ 888     d88' 888   888    `888'`888'     888   888   888  888   888 d8(  888  888   888        888    .88P  888   888    888 .   888 . 888   888  888   888
+o888bood8P'   `Y8bod8P'     `8'  `8'     o888o o888o o888o `Y8bod8P' `Y888""8o `Y8bod88P"      o888bood8P'   `V88V"V8P'   "888"   "888" `Y8bod8P' o888o o888o
+
+ */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*
+oooooooooooo oooooooooooo       .o.       ooooooooooooo ooooo     ooo ooooooooo.   oooooooooooo  .oooooo..o
+`888'     `8 `888'     `8      .888.      8'   888   `8 `888'     `8' `888   `Y88. `888'     `8 d8P'    `Y8
+888          888             .8"888.          888       888       8   888   .d88'  888         Y88bo.
+888oooo8     888oooo8       .8' `888.         888       888       8   888ooo88P'   888oooo8     `"Y8888o.
+888    "     888    "      .88ooo8888.        888       888       8   888`88b.     888    "         `"Y88b
+888          888       o  .8'     `888.       888       `88.    .8'   888  `88b.   888       o oo     .d8P
+o888o        o888ooooood8 o88o     o8888o     o888o        `YbodP'    o888o  o888o o888ooooood8 8""88888P'
+*/
+#features {
+  background-color: #fff;
+  padding: 7% 7%;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.check:hover {
+  color: #42855B;
+}
+
+.globe:hover {
+  color: #293462;
+}
+
+.heart:hover {
+  color: #FF1E00;
+}
+
+.feature-slot {
+  padding: 0 6%
+}
+
+/*
+ooooooooooooo oooooooooooo  .oooooo..o ooooooooooooo ooooo ooo        ooooo   .oooooo.   ooooo      ooo ooooo       .o.       ooooo         .oooooo..o
+8'   888   `8 `888'     `8 d8P'    `Y8 8'   888   `8 `888' `88.       .888'  d8P'  `Y8b  `888b.     `8' `888'      .888.      `888'        d8P'    `Y8
+     888       888         Y88bo.           888       888   888b     d'888  888      888  8 `88b.    8   888      .8"888.      888         Y88bo.
+     888       888oooo8     `"Y8888o.       888       888   8 Y88. .P  888  888      888  8   `88b.  8   888     .8' `888.     888          `"Y8888o.
+     888       888    "         `"Y88b      888       888   8  `888'   888  888      888  8     `88b.8   888    .88ooo8888.    888              `"Y88b
+     888       888       o oo     .d8P      888       888   8    Y     888  `88b    d88'  8       `888   888   .8'     `888.   888       o oo     .d8P
+    o888o     o888ooooood8 8""88888P'      o888o     o888o o8o        o888o  `Y8bood8P'  o8o        `8  o888o o88o     o8888o o888ooooood8 8""88888P'
+ */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ooooooooo.   ooooooooo.   ooooo   .oooooo.   ooooo ooooo      ooo ooooo   .oooooo.
+`888   `Y88. `888   `Y88. `888'  d8P'  `Y8b  `888' `888b.     `8' `888'  d8P'  `Y8b
+ 888   .d88'  888   .d88'  888  888           888   8 `88b.    8   888  888
+ 888ooo88P'   888ooo88P'   888  888           888   8   `88b.  8   888  888
+ 888          888`88b.     888  888           888   8     `88b.8   888  888     ooooo
+ 888          888  `88b.   888  `88b    ooo   888   8       `888   888  `88.    .88'
+o888o        o888o  o888o o888o  `Y8bood8P'  o888o o8o        `8  o888o  `Y8bood8P'
+*/
+#pricing {
+  padding: 5% 10%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-tag {
+  font-size: 1.5rem;
+}
+
+/*
+  .oooooo.             oooo  oooo       ooooooooooooo                      .o.                     .    o8o
+ d8P'  `Y8b            `888  `888       8'   888   `8                     .888.                  .o8    `"'
+888           .oooo.    888   888            888       .ooooo.           .8"888.      .ooooo.  .o888oo oooo   .ooooo.  ooo. .oo.
+888          `P  )88b   888   888            888      d88' `88b         .8' `888.    d88' `"Y8   888   `888  d88' `88b `888P"Y88b
+888           .oP"888   888   888            888      888   888        .88ooo8888.   888         888    888  888   888  888   888
+`88b    ooo  d8(  888   888   888            888      888   888       .8'     `888.  888   .o8   888 .  888  888   888  888   888
+ `Y8bood8P'  `Y888""8o o888o o888o          o888o     `Y8bod8P'      o88o     o8888o `Y8bod8P'   "888" o888o `Y8bod8P' o888o o888o
+ */
+#cta {
+  background-color: #ff4c68;
+  padding: 11% 10% 10%;
+  color: #fff;
+}
+
+.cta-text {
+  font-size: 3.5rem;
+}
+
+.cta-download-button {
+  margin: 5% 1% 0;
+}
+
+/*
+oooooooooooo                         .
+`888'     `8                       .o8
+ 888          .ooooo.   .ooooo.  .o888oo  .ooooo.  oooo d8b
+ 888oooo8    d88' `88b d88' `88b   888   d88' `88b `888""8P
+ 888    "    888   888 888   888   888   888ooo888  888
+ 888         888   888 888   888   888 . 888    .o  888
+o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
+ */
+#footer {
+  padding: 5% 5%;
+  background-color: #fff;
+  font-family: "Ubuntu";
+}
+
+.footer-icon {
+  padding: 0 1%;
+}
+
+.copyright {
+  margin-top: 2%;
+}
